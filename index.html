@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LOGO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li id="btnLoginRegister"><a href="#">Login/Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="card">
+        <div class="x-box" id="btn-close">x</div>
+        <div class="format_card login">
+            <form>
+                <h2 class="title_card text_center">LOGIN</h2>
+                <div>
+                    <input type="text" id="user" placeholder=" ">
+                    <label for="user">Usuário</label>
+                </div>
+                <div>
+                    <input type="text" id="password" placeholder=" ">
+                    <label for="password">Senha</label>
+                </div>
+                <div>
+                    <p class="legend-login_register text_center">Não possui conta?  <span class="underline" id="linkLogin">Cadastre-se</span></p>
+                </div>
+                <button class="btn-login">Entrar</button>
+            </form>
+        </div>
+        <div class="format_card register">
+            <form>
+                <h2 class="title_card text_center">Cadastro</h2>
+                    <div>
+                        <input type="text" id="useR" placeholder=" ">
+                        <label for="useR">Usuário</label>
+                    </div>
+                    <div>
+                        <input type="text" id="email" placeholder=" ">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div>
+                        <input type="password" id="passwordR" placeholder=" ">
+                        <label for="passwordR">Senha</label>
+                    </div>
+                    <div>
+                        <input type="password" id="re-passwordR" placeholder=" ">
+                        <label for="re-passwordR">Confirmar Senha</label>
+                    </div>
+                    <div>
+                        <p class="legend-login_register text_center">Ja possui conta? <span class="underline" id="linkRegister">Faça o Login</span></p>
+                    </div>
+                    <button class="btn-login">Entrar</button>
+                </form>
+        </div>
+    </div>    
+</body>
+</html>
